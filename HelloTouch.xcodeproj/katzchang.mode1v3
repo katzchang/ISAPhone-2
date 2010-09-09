@@ -272,8 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>1</integer>
+									<integer>13</integer>
+									<integer>11</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8A8CB98F1238F28F0050E5C3</string>
+										<string>8A8CB9BA1238F7F70050E5C3</string>
 										<key>history</key>
 										<array>
 											<string>8A8CB97B1238F0B50050E5C3</string>
@@ -338,7 +338,7 @@
 											<string>8A8CB9861238F13F0050E5C3</string>
 											<string>8A8CB9871238F13F0050E5C3</string>
 											<string>8A8CB98B1238F1AE0050E5C3</string>
-											<string>8A8CB9831238F13F0050E5C3</string>
+											<string>8A8CB9B71238F7EA0050E5C3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -536,6 +536,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>8A8CB9B91238F7EA0050E5C3</string>
 		<string>8A8CB9891238F13F0050E5C3</string>
 		<string>8A8CB98A1238F13F0050E5C3</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -565,7 +566,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HelloTouchViewController.h</string>
+								<string>HelloTouchViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -636,7 +637,7 @@
 			<key>WindowToolGUID</key>
 			<string>8A395BEA1238E22E00EC71B2</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

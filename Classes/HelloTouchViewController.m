@@ -59,9 +59,13 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	NSLog(@"touchesBegan");
-//	for (UITouch *touch in touches) {
-//		clickPos = [touch locationInView:self];
-//	}
+	UITouch *touch = [touches anyObject];
+	CGPoint point = [touch locationInView:paintView];
+	
+	NSLog(@"%f,%f", point.x, point.y);
+	
+//	[paintView addPoint:point];
+//	[paintView setNeedsDisplay];
 }
 
 
