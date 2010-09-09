@@ -14,7 +14,14 @@
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
-		points = [[NSMutableArray alloc] init];
+//		points = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    if ((self = [super initWithCoder:aDecoder])) {
+		points = [[NSMutableArray alloc] initWithCapacity:10];
     }
     return self;
 }
@@ -30,6 +37,10 @@
 - (void)addPoint:(CGPoint)point {
 	NSValue *p = [NSValue valueWithCGPoint:point];
 	[points addObject:p];
+}
+
+- (void)clearPoint {
+	// TODO
 }
 
 - (void)dealloc {
