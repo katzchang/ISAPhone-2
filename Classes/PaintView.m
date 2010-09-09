@@ -26,17 +26,28 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
+	NSLog(@"drawRect");
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	
+	for (int i = 0; i < points.count; ++i) {
+		NSValue *p = [points objectAtIndex:i];
+		CGPoint point = [p CGPointValue];
+		
+		if (i == 0) {
+			CGContextMoveToPoint(context, point.x, point.y);
+		} else {
+			CGContextAddLineToPoint(context, point.x, point.y);
+		}
+	}
+	CGContextStrokePath(context);
 }
-*/
 
 - (void)addPoint:(CGPoint)point {
+	NSLog(@"addPoint");
 	NSValue *p = [NSValue valueWithCGPoint:point];
 	[points addObject:p];
+	NSLog(@"%i", points.count);
 }
 
 - (void)clearPoint {

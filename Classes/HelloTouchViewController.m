@@ -62,18 +62,15 @@
 	UITouch *touch = [touches anyObject];
 	CGPoint point = [touch locationInView:paintView];
 	
-	NSLog(@"%f,%f", point.x, point.y);
-	
 	[paintView addPoint:point];
 	[paintView setNeedsDisplay];
+	NSLog(@"touchesBegan end");
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	NSLog(@"touchesMoved");
 	UITouch *touch = [touches anyObject];
 	CGPoint point = [touch locationInView:paintView];
-	
-	NSLog(@"%f,%f", point.x, point.y);
 	
 	[paintView addPoint:point];
 	[paintView setNeedsDisplay];
@@ -84,8 +81,6 @@
 	NSLog(@"touchesEnded");
 	UITouch *touch = [touches anyObject];
 	CGPoint point = [touch locationInView:paintView];
-	
-	NSLog(@"%f,%f", point.x, point.y);
 	
 	[paintView addPoint:point];
 	[paintView setNeedsDisplay];
