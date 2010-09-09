@@ -59,6 +59,9 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	NSLog(@"touchesBegan");
+//	for (UITouch *touch in touches) {
+//		clickPos = [touch locationInView:self];
+//	}
 }
 
 
