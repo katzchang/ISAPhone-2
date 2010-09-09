@@ -10,7 +10,10 @@
 
 
 @interface PaintView : UIView {
-
+	NSMutableArray *points;
 }
+
+- (void)addPoint:(CGPoint) point;
+- (void)clearPoint;
 
 @end

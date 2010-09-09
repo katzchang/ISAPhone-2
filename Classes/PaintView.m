@@ -27,6 +27,9 @@
 }
 */
 
+- (void)addPoint:(CGPoint)point {
+}
+
 - (void)dealloc {
     [super dealloc];
 }
