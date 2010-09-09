@@ -23,15 +23,16 @@
 	28D7ACF60DDB3853001CB0EB /* HelloTouchViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {925, 556}}";
-			sepNavSelRange = "{300, 0}";
+			sepNavSelRange = "{152, 0}";
 			sepNavVisRange = "{0, 300}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* HelloTouchViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {925, 871}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 799}";
+			sepNavIntBoundsRect = "{{0, 0}, {925, 910}}";
+			sepNavSelRange = "{1251, 0}";
+			sepNavVisRange = "{673, 897}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -88,6 +89,8 @@
 			8A8CB9571238E8500050E5C3 /* XCBuildMessageTextBookmark */ = 8A8CB9571238E8500050E5C3 /* XCBuildMessageTextBookmark */;
 			8A8CB9581238E8500050E5C3 /* PBXTextBookmark */ = 8A8CB9581238E8500050E5C3 /* PBXTextBookmark */;
 			8A8CB9591238E90B0050E5C3 /* PBXTextBookmark */ = 8A8CB9591238E90B0050E5C3 /* PBXTextBookmark */;
+			8A8CB95B1238ED6D0050E5C3 /* PBXTextBookmark */ = 8A8CB95B1238ED6D0050E5C3 /* PBXTextBookmark */;
+			8A8CB95C1238ED6D0050E5C3 /* PBXTextBookmark */ = 8A8CB95C1238ED6D0050E5C3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8A395BEC1238E22E00EC71B2 /* Source Control */;
 		userBuildSettings = {
@@ -316,5 +319,25 @@
 		rType = 0;
 		vrLen = 300;
 		vrLoc = 0;
+	};
+	8A8CB95B1238ED6D0050E5C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* HelloTouchViewController.h */;
+		name = "HelloTouchViewController.h: 8";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 0;
+	};
+	8A8CB95C1238ED6D0050E5C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* HelloTouchViewController.m */;
+		name = "HelloTouchViewController.m: 50";
+		rLen = 0;
+		rLoc = 1251;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 673;
 	};
 }

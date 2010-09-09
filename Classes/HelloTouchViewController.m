@@ -57,6 +57,10 @@
 	// e.g. self.myOutlet = nil;
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	NSLog(@"touchesBegan");
+}
+
 
 - (void)dealloc {
     [super dealloc];

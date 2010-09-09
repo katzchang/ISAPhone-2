@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>HelloTouchViewController.h</string>
+								<string>HelloTouchViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,22 +323,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>HelloTouchViewController.h</string>
+										<string>HelloTouchViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8A8CB9591238E90B0050E5C3</string>
+										<string>8A8CB95C1238ED6D0050E5C3</string>
 										<key>history</key>
 										<array>
 											<string>8A395BF31238E3B600EC71B2</string>
 											<string>8A395BF41238E3B600EC71B2</string>
 											<string>8A395BF51238E3B600EC71B2</string>
 											<string>8A8CB9521238E8500050E5C3</string>
-											<string>8A8CB9531238E8500050E5C3</string>
 											<string>8A8CB9541238E8500050E5C3</string>
 											<string>8A8CB9551238E8500050E5C3</string>
 											<string>8A8CB9561238E8500050E5C3</string>
-											<string>8A8CB9571238E8500050E5C3</string>
+											<string>8A8CB95B1238ED6D0050E5C3</string>
+											<string>8A8CB9531238E8500050E5C3</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
