@@ -11,7 +11,7 @@
 #include "PaintView.h"
 
 @interface HelloTouchViewController : UIViewController {
-	IBOutlet PaintView paintView;
+	IBOutlet PaintView *paintView;
 }
 
 @end
