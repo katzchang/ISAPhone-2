@@ -14,7 +14,7 @@
 
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
-        // Initialization code
+		points = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -28,6 +28,8 @@
 */
 
 - (void)addPoint:(CGPoint)point {
+	NSValue *p = [NSValue valueWithCGPoint:point];
+	[points addObject:p];
 }
 
 - (void)dealloc {
